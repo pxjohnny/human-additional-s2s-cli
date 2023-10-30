@@ -1,0 +1,28 @@
+{
+  "name": "px-additional_s2s-sender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "Johnny Tordgeman",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/figlet": "^1.5.7",
+    "@types/node": "^20.8.9",
+    "@types/uuid": "^9.0.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "dayjs": "^1.11.10",
+    "figlet": "^1.7.0",
+    "phin": "^3.7.0",
+    "random-ease": "^1.0.8",
+    "uuid": "^9.0.1"
+  }
+}
