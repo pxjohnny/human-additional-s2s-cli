@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node src/index.ts"
+    "dev": "ts-node src/index.ts",
+    "lint": "eslint --ignore-path .eslintignore --ext .js,.ts"
   },
   "keywords": [],
   "author": "Johnny Tordgeman",
@@ -14,6 +15,9 @@
     "@types/figlet": "^1.5.7",
     "@types/node": "^20.8.9",
     "@types/uuid": "^9.0.6",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "^8.52.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   },
